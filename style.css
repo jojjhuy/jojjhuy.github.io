@@ -1,15 +1,145 @@
-/* h1 {
+/* /* h1 {
   color: orange;
   font-size: 12px;
 } */
 
-.name{
+/* .name{
   color: orange;
 
-}
+} */
 
-.question{
+/* .question{
   border-style: dashed;
   border-color: orange;
   color: blue;
+} */ 
+
+h1{
+  text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+h1{
+  text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+h1{
+text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+h1{
+text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+h1{
+    text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+h1{
+text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+h1{
+text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+h1{
+text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
+}
+h1{
+text-align: center;
+}
+
+#header{
+    background-color: #7b9e89;
+    color: #020122;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 35px;
 }
