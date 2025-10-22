@@ -1,76 +1,102 @@
-/* /* h1 {
-  color: orange;
-  font-size: 12px;
-} */
+body {
+font-family: "Segoe UI", sans-serif;
+background-color: #F5F9FC;
+color: #333;
 
-/* .name{
-  color: orange;
-
-} */
-
-/* .question{
-  border-style: dashed;
-  border-color: orange;
-  color: blue;
-} */ 
-
-h1{
-  text-align: center;
 }
 
-#header{
-    background-color: #7b9e89;
-    color: #020122;
-    width: 80%;
-    height: 30px;
-    text-align: center;
-    margin: auto;
-    padding: 30px;
-    border-radius: 35px;
-#header p, h2{
-    display: inline;
+#navbar {
+position: fixed;
+width: 100%;
+background-color: #3a7ca5;
+color: white;
+padding: 10px 0;
+z-index: 100;
+display: flex;
+justify-content: space-around;
+align-items: center;
+top: 0;
 }
-#parent {
-    margin: 5% auto;
-    width: 80%;
-    height: 550px;
-    background-color: #fc9e4f;
-    color: #020122;
-    border-radius: 70px;
-}
-#parent p, h3{
-    padding: 3%;
-    font-size: 1.25rem;
-}
-#child{
 
-    width: 75%;
-    height: 350px;
-    background-color: #f4442e;
-    color: #020122;
+#hero {
+text-align: center;
+background: #c8e8f3;
+color: #2b6777;
+padding: 140px 20px 80px;
+margin-top: 60px;
+position: relative;
+z-index: 1;
 }
-#child p, h3{
-    padding: 3%;
-    font-size: 1.25rem;
+#hero h1 {
+font-size: 3rem;
+margin-bottom: 10px;
 }
-#fixed{
-    width: 30%;
-    height: auto;
-    border-radius: 55px;
-    background-color: #fc9e4f;
-    color: #020122;
+#hero p {
+font-size: 1.2rem;
 }
-#fixed p{
-    display: inline;
-    padding: 5%;
+
+.section {
+margin: 60px auto;
+width: 80%;
+max-width: 900px;
+color: black;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+position: relative;
 }
-#relative{
-    width: 60%;
-    height: 350px;
-    background-color: #edd382;
-    color: #020122;
+.parent-box {
+position: relative;
+background-color: #d8efff;
+padding: 30px;
+margin-top: 25px;
+border-radius: 8px;
 }
-#relative p, h3{
-    padding: 3%;
-    font-size: 1.25rem;
+.child-box {
+position: absolute;
+top: 10px;
+right: 20px;
+background-color: #9cd0ff;
+padding: 10px;
+border-radius: 6px;
+width: 45%;
+box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
+
+.sticky-title {
+position: sticky;
+top: 70px;
+background-color: #3a7ca5;
+color: white;
+padding: 10px;
+border-radius: 8px;
+z-index: 5px;
+}
+
+.info-box{
+background-color: #f0f9ff;
+border-left: 6px solid #3a7ca5;
+padding: 10px 15px;
+margin-top: 15px;
+border-radius: 8px;
+}
+
+.fact-card/**the card started with # instead of .**/ {
+
+background-color: #e3f8e0;
+border: 2px solid #6fc276;
+padding: 15px;
+border-radius: 8px;
+text-align: center;
+position: relative;
+margin-top: 10px;
+}
+
+#footer {
+background-color: #3a7ca5;
+color: white;
+text-align: center;
+padding: 20px;
+position: relative;
+z-index 10;
