@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elephants of the World</title>
-<link href="style.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elephants of the World</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/> <!-- <-- changed: added href "style.css" instead of empty href ""; why: to correctly link the stylesheet so styles load --> 
 </head>
 <body>
-<div id="navbar">
-<h2>🐘 Elephants</h2> <!--The h2 tag was not finished-->
-<h2> Name: Eric Lee</h2>
-</div>
+  <div id="navbar">
+    <h2>🐘 Elephants</h2> <!-- <-- changed: closed the <h2> which was <h2>🐘 Elephants<h2> in the 2nd file; why: missing closing tag breaks DOM and layout -->
+    <h2> Name: Eric Lee</h2> <!-- <-- changed: replaced generic <h2> Name</h2> with "Name: Eric Lee"; why: added meaningful content and fixed missing text in navbar -->
+  </div>
 
-<div id="hero">
-<h1>Elephants of the World</h1>
-<p>The gentle giants that shape our ecosystems.</p>
-  </div> <!--The div was not finished-->
+  <div id="hero">
+    <h1>Elephants of the World</h1>
+    <p>The gentle giants that shape our ecosystems.</p>
+  </div> <!-- <-- changed: closed #hero div (was left open in 2nd file); why: fixing nesting so subsequent sections are not inside hero -->
 
-<div class=section>
-<h2>About Elephants</h2>
-<p><!--The p did not start-->Elephants are the largest land mammals on Earth. They are highly intelligent and form
-strong
-family bonds led by a matriarch. They use their trunks for eating, drinking, and
-communication.
-</p>
+  <div class="section"> <!-- <-- changed: added quotes around class attribute (was class=section); why: valid HTML syntax and safer/consistent -->
+    <h2>About Elephants</h2>
+    <p><!-- <-- changed: added opening <p> tag before paragraph text (was plain text without <p> in 2nd file); why: semantically correct paragraph and consistent styling -->Elephants are the largest land mammals on Earth. They are highly intelligent and form
+    strong
+    family bonds led by a matriarch. They use their trunks for eating, drinking, and
+    communication.
+    </p>
 
-<div class="parent-box">
-<p>This light blue box is the parent element.</p>
-<div class="child-box">
-<p>This smaller box is <strong>positioned absolutely</strong> inside its parent.</p>
-</div>
-</div>
-</div>
+    <div class="parent-box">
+      <p>This light blue box is the parent element.</p>
+      <div class="child-box">
+        <p>This smaller box is <strong>positioned absolutely</strong> inside its parent.</p>
+      </div>
+    </div>
+  </div>
 
-<div class="section">
-<h2 class="sticky-title">Types of Elephants</h2>
-<p> <!--extra h2 tag-->
-There are three main species of elephants — each adapted to its own habitat:
-</p>
-<ul>
-<li><strong>African Savannah Elephant:</strong> Found in open grasslands.</li>
-<li><strong>African Forest Elephant:</strong> Smaller, lives in dense forests.</li>
-<li><strong>Asian Elephant:</strong> Found across South and Southeast Asia.</li>
-  </ul>
-<div class="info-box">
-  <p><strong>Fun fact: Elephant ears help regulate body temperature!</strong><!--the strong was not finished--></p>
-</div>
-</div>
+  <div class="section">
+    <h2 class="sticky-title">Types of Elephants</h2>
+    <p>
+      There are three main species of elephants — each adapted to its own habitat:
+    </p>
+    <ul>
+      <li><strong>African Savannah Elephant:</strong> Found in open grasslands.</li>
+      <li><strong>African Forest Elephant:</strong> Smaller, lives in dense forests.</li>
+      <li><strong>Asian Elephant:</strong> Found across South and Southeast Asia.</li>
+    </ul> <!-- <-- changed: removed stray </li> and ensured proper closing of </ul>; why: stray/mismatched </li> made list invalid -->
 
-<div class="section">
-<h2>Fun Facts</h2>
-<div class="facts-container">
-<div class="fact-card">🐘 Elephants can recognize themselves in mirrors.</div>
-<div class="fact-card">💧 They use their trunks like snorkels when swimming.</div>
-<div class="fact-card">🌿 They eat up to 300 pounds of food per day!</div>
-</div>
-</div>
+    <div class="info-box">
+      <p><strong>Fun fact: Elephant ears help regulate body temperature!</strong></p> <!-- <-- changed: closed the <strong> tag (was not closed in 2nd file); why: fix inline formatting and valid markup -->
+    </div>
+  </div>
 
-<div id="footer">
-<p>© 2025 Elephants of the World</p>
-</div>
-  </body> <!--the body was not finished-->
+  <div class="section">
+    <h2>Fun Facts</h2>
+    <div class="facts-container">
+      <div class="fact-card">🐘 Elephants can recognize themselves in mirrors.</div> <!-- <-- changed: closed the fact-card div and made each fact its own separate div; why: 2nd file had mismatched nesting and missing closures, which broke layout -->
+      <div class="fact-card">💧 They use their trunks like snorkels when swimming.</div>
+      <div class="fact-card">🌿 They eat up to 300 pounds of food per day!</div>
+    </div>
+  </div>
 
-</html>
+  <div id="footer">
+    <p>© 2025 Elephants of the World</p>
+  </div> <!-- <-- changed: fixed footer tag which in 2nd file was written as <div id="footer" without closing > and missing closure; why: broken tag prevented footer rendering -->
+
+</body> <!-- <-- changed: added closing </body> tag (was missing in 2nd file); why: complete document structure and correct HTML -->
+</html> <!-- <-- changed: ensured final </html> closure; why: document must be properly closed -->
