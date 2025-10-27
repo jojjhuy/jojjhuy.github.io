@@ -76,8 +76,8 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 /* changed: fixed multiple issues — 
-   “padding: 10png;” → “padding: 10px;”
-   “with:” → “width:”
+   “padding: 10png;” to “padding: 10px;”
+   “with:” to “width:”
    why: corrected typos for valid CSS syntax */
 
 .sticky-title {
@@ -89,7 +89,7 @@ body {
   border-radius: 8px;
   z-index: 5px;
 }
-/* changed: “colour” → “color” and standardized z-index value
+/* changed: “colour” to “color” and standardized z-index value
    why: corrected invalid property spelling and ensured layering consistency */
 
 .info-box {
