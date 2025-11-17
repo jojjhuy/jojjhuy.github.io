@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Nav</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://images.squarespace-cdn.com/content/v1/545a5d95e4b09a5cc2e6cb88/1454707578351-T063ATJMH4DGEVJY29ET/ChipMalt-Images-Food1.jpg?format=2500w");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 150vh;
+      font-family: Arial, sans-serif;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0.75rem 2rem;
+      margin: 20px auto;
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.25);
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(8px);
+      border-radius: 15px;
+      z-index: 999;
+    }
+
+    ul li a {
+      display: block;
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: black;
+      white-space: nowrap;
+      font-weight: 600;
+    }
+
+    ul li a:hover {
+      color: #ffff;
+    }
+
+    ul li a.active {
+      color: #000;
+    }
+
+    .center-box {
+      max-width: 800px;
+      margin: 180px auto 0;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+      border: 2px solid white;
+      backdrop-filter: blur(6px);
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+
+    .center-box h1 {
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+      color: #000;
+    }
+
+    .center-box p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #000;
+    }
+
+    .center-box {
+  max-width: 800px;
+  margin: 150px auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #333;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.center-box h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.center-box p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+  </style>
+
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a class="active" href="#"><strong>Home</strong></a></li>
+      <li><a href="lesson1.html">Menu</a></li>
+      <li><a href="index.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="center-box">
+    <h1>WE KNOW GOOD FOOD.</h1>
+    <p>We also support local family farms who care about their land and animals.
+We use meat from local animals, raised without the use of antibiotics or hormones.
+      We source organic and local produce when practical.</p>
+  </div>
+
+</body>
+</html>
